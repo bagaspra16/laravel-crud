@@ -64,9 +64,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```bash
 php artisan serve
+```
+### Login Information!
 
- 
-
-
-
-
+Find the email & password login in seeders folder.
