@@ -67,4 +67,4 @@ php artisan serve
 ```
 ### Login Information!
 
-Find the email & password login in seeders folder.
+Find the email & password login in database & seeders folder.
