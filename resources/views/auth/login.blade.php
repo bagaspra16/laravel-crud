@@ -18,15 +18,12 @@
   <div class="container">
     <!-- Outer Row -->
     <div class="row justify-content-center">
-      <div class="col-xl-8 col-lg-10 col-md-7" style="margin-top:150px;">
-        <div class="card o-hidden border-0 bg-gray-900 shadow-lg">
+      <div class="col-xl-5 col-lg-7 col-md-5" style="margin-top:150px;">
+      <center><img src="{{ asset('admin_assets/img/mylogo.png') }}" style="width:18%;" alt=""></center>
+        <div class="card o-hidden border-0 bg-gray-900 shadow-lg mt-5">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
                 <div class="p-5">
-                  <div class="text-center">
-                  <img src="{{ asset('admin_assets/img/mylogo.png') }}" style="width:10%;" alt="">
-                    <h1 class="h4 text-white my-4" style="font-weight:bolder;">Welcome Back!</h1>
-                  </div>
                   <form action="{{ route('login.action') }}" method="POST" class="user">
                     @csrf
                     @if ($errors->any())

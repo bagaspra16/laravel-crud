@@ -1,9 +1,9 @@
 @extends('layouts.app')
   
-@section('title', 'Show Product')
+@section('title', 'Product')
   
 @section('contents')
-    <h1 class="mb-0">Detail Product</h1>
+    <h5 class="mb-0">Detail Product</h5>
     <hr />
     <div class="row">
         <div class="col mb-3">
