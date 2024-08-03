@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 - PHP >= 7.4
 - Composer
 - Node.js (for Laravel Mix)
-- MySQL or any other database of your choice
+- MySQL
 - XAMPP
 
 ### Installing
